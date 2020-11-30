@@ -1,0 +1,24 @@
+html, body{
+    width: 210mm;
+    height: 297mm;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.beerlabel {
+    width: 10cm;
+}
+
+.beerlabel.even{
+    padding: 5mm 5mm 0 2mm;
+}
+
+.beerlabel.odd{
+    padding: 5mm 0 0 0;
+}
+
+@page {
+    size: A4;
+    margin: 0;
+}
