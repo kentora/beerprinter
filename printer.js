@@ -27,7 +27,7 @@ function openAndPrint(b64){
     frame.src = "print.html";
     frame.addEventListener("load", function(){
         var elem;
-        for(var i = 0; i < 8; i++){
+        for(var i = 0; i < 12; i++){ // Print more than necesary, to ensure filling page :)
             elem = frame.contentDocument.createElement("img");
             elem.src = b64;
             elem.id = "label" + i;
